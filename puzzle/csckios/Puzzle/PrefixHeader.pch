@@ -1,0 +1,65 @@
+//
+//  PrefixHeader.pch
+//  Puzzle
+//
+//  Created by yiliu on 16/9/5.
+//  Copyright © 2016年 mushoom. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+
+#import "MBProgressHUD.h"
+
+#import "NetWork.h"
+#import "Masonry.h"
+#import "WWUI.h"
+#import "loadNav.h"
+#import "WWHeader.h"
+
+//屏幕宽
+#define WIDE [[UIScreen mainScreen] bounds].size.width
+
+//屏幕高
+#define HIGH [[UIScreen mainScreen] bounds].size.height
+
+//自定义颜色
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+//RGB的颜色转换
+#define kUIColorFromRGB(rgbValue) [UIColor \
+colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
+#define LABELCOLOR kUIColorFromRGB(0x404040)
+
+#define USER_CELL_COLOR kUIColorFromRGB(0x333333)
+
+#define USER_NAME_COLOR kUIColorFromRGB(0x2b2b2b)
+
+#define USER_ORDER_COLOR kUIColorFromRGB(0x737373)
+
+#define USER_BACK_COLOR RGBACOLOR(236,238,239,1.0)
+
+//比率适配
+#define rate(a) ([[UIScreen mainScreen] bounds].size.width/375*a)
+
+//保存模板的文件夹路径
+#define TEMPLATEPATH [NSString stringWithFormat:@"%@/TemplatePhotos", [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]]
+
+//请求地址
+#define POSTURL @"http://112.124.2.50:8080/ph/app/"
+
+#define HEADURL @"http://112.124.2.50:8080/ph/app/"
+
+//图片地址
+#define TEMPLATEDOWNURL @"http://112.124.2.50:8080/files/"
+
+//图片展示默认图片
+#define PlaceholderImage [UIImage imageNamed:@"loading"]
+
+#endif /* PrefixHeader_pch */

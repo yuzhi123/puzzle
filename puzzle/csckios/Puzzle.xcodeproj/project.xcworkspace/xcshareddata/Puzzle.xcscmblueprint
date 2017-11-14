@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ED3D9652CE446BDBF4B8984FEA20539B4E3B32B2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b77c7253-deaf-4f72-b91e-c0ae48988892++5683" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ED3D9652CE446BDBF4B8984FEA20539B4E3B32B2" : 9223372036854775807,
+    "b77c7253-deaf-4f72-b91e-c0ae48988892++5683" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5973AF4F-D23D-44A7-856A-4B6851F9A4B9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ED3D9652CE446BDBF4B8984FEA20539B4E3B32B2" : "csckios\/",
+    "b77c7253-deaf-4f72-b91e-c0ae48988892++5683" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Puzzle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Puzzle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/appy\/csckios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ED3D9652CE446BDBF4B8984FEA20539B4E3B32B2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/meituapp.wicp.net:8443\/svn\/doc",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b77c7253-deaf-4f72-b91e-c0ae48988892++5683"
+    }
+  ]
+}
